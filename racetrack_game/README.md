@@ -17,4 +17,4 @@ The map should not be larger than 128x128 pixels, however - computing the AI rou
 The racetrack needs to have a white color (rgb [210-255, 210-255, 210-255]), the start green (rgb [0-40, 210-255, 0-40]) and the finish red (rgb [210-255,0-40,0-40]). 
 The space surrounding the racetrack can have any color not colliding with the previous three, for example black [255, 255, 255]. 
 
-In the added .pdf file, there is a report on how the AI controlled formula works. 
+In the added .pdf file, there is a report on how the AI controlled formula works, and the code can be tested using pytest module and the pytesting_racetrack.py code. 

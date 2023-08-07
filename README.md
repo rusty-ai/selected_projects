@@ -1,7 +1,7 @@
 # selected_projects
-A few selected projects demonstrating my Python programming skills as of _August 2023_
+### A few selected projects demonstrating my Python programming skills as of _August 2023_
 
-In **mgr_thesis**, there is a jupyter notebook with a variational autoencoder I was working on recently. 
+In **mgr_thesis**, there is a jupyter notebook with a variational autoencoder I was working on recently.
 
 In **racetrack_game**, there is an implementation of the square paper game Racetrack (with an AI opponent using a combination of A* and greedy search algorithms). 
 

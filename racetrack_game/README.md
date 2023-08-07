@@ -1,5 +1,5 @@
 Here, I implemented the Racetrack game, see https://en.wikipedia.org/wiki/Racetrack_(game). 
-It was made for the **Základy umělé inteligence** (BI-ZUM) subjects on CVUT FIT, which I did through the prg.ai/minor programme. 
+It was made for the _Základy umělé inteligence_ (BI-ZUM) subjects on CVUT FIT, which I did through the prg.ai/minor programme. 
 Game can be started by running racetrack_main.py. 
 At the beginning, the player appears in a menu, where he can write the name of his or a pre-prepared track (using BACKSPACE, he can delete characters), ENTER starts the race. 
 Loading the track (finding the AI route) the first time takes approximately 15 seconds. 

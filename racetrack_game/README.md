@@ -12,8 +12,8 @@ After reaching the finish (or crashing), the results are shown and the player ha
 The requirements (also in requirements.txt) to run the game are:
 pip install --user numpy pillow matplotlib pyglet scikit-image
 
-The player can create his own track (for example in GIMP), the game can load any map and adjust the window size correspondingly. 
-The map should not be larger than 128x128 pixels, however - computing the AI route could take a long time and all icons would look very small. 
+The player can create his own track (for example in GIMP), the game can load a map of any size and adjusts the window size correspondingly. 
+However, the map should not be larger than 128x128 pixels - computing the AI route could take a long time and all icons would look very small. 
 The racetrack needs to have a white color (rgb [210-255, 210-255, 210-255]), the start green (rgb [0-40, 210-255, 0-40]) and the finish red (rgb [210-255,0-40,0-40]). 
 The space surrounding the racetrack can have any color not colliding with the previous three, for example black [255, 255, 255]. 
 

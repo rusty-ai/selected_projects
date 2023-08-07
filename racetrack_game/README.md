@@ -1,17 +1,20 @@
-V tomto programu jsem implementoval hru Racetrack, viz https://en.wikipedia.org/wiki/Racetrack_(game). 
-Hru lze spustit rozběhnutím programu racetrack_main.py. 
-Nejprve se hráč objeví v menu, kde si může napsat jméno předpřipravené či vlastní dráhy (pomocí BACKSPACE lze umazávat znaky), ENTER dráhu spustí. 
-Samotné načítání dráhy (hledání trasy AI) poprvé trvá zhruba 15 vteřin. 
-V samotné hře pak hráč může šipkami a klávesou ENTER určovat místo, kam chce, aby formule jela v dalším kroku, klávesou BACKSPACE se může vrátit o krok zpět.
-Proti hráči soutěží jedna formulka ovládaná AI. 
-Hra končí v případě vyjetí z dráhy (či vzácném případě velkou rychlostí opuštění celého obrázku dráhy v následujícím kole) nebo dojetím do cíle. 
-Dojetí do cíle se počítá pokud hráč skončí na libovolném cílovém políčku, či cílovým políčkem projede. 
-Po dojetí do cíle (či vyjetí z dráhy) se ukáží výsledky a hráč má možnost klávesou SPACE vybrat novou dráhu či klávesou ENTER znovu projet tu samou.
+Here, I implemented the Racetrack game, see https://en.wikipedia.org/wiki/Racetrack_(game). 
+It was made for the Základy umělé inteligence (BI-ZUM) subjects on CVUT FIT, which I did through the prg.ai/minor programme. 
+Game can be started by running racetrack_main.py. 
+At the beginning, the player appears in a menu, where he can write the name of his or a pre-prepared track (using BACKSPACE, he can delete characters), ENTER starts the race. 
+Loading the track (finding the AI route) the first time takes approximately 15 seconds. 
+In the game itself the player can (using arrows and the ENTER key) select the place where the formula goes in the next step, using BACKSPACE, ha can return a step back.
+There is a one AI controlled formula competing against the player.
+The game ends when the player goes off the track (or, in rare cases, if he was to leave the entire screen due to a very high speed), or when he reaches the finish. 
+The players reaches the finish not only when he ends on one of the finish tiles, he can also just drive through the finish. 
+After reaching the finish (or crashing), the results are shown and the player has the option to choose a new track or play the same one once again. ESCAPE ends the game. 
 
-Požadavky pro spuštění hry (ještě znovu zopakované v requirements.txt) jsou:
+The requirements (also in requirements.txt) to run the game are:
 pip install --user numpy pillow matplotlib pyglet scikit-image
 
-Hráč si může vytvořit vlastní dráhu například v GIMPu, hra umí načíst libovolnou mapu a přizpůsobit jí okno. 
-Mapa by ovšem v ideálním případě neměla být větší než 128x128 pixelů, protože pak už by byla velmi malá. 
-Dráha má mít bílou barvu (rgb [210-255, 210-255, 210-255]), start zelenou (rgb [0-40, 210-255, 0-40]) a cíl červenou (rgb [210-255,0-40,0-40]). 
-Prostor ohraničující dráhu může mít jakokouliv barvu která nekoliduje z předchozími třemi, např. černou [255, 255, 255]. 
+The player can create his own track (for example in GIMP), the game can load any map and adjust the window size correspondingly. 
+The map should not be larger than 128x128 pixels, however - computing the AI route could take a long time and all icons would look very small. 
+The racetrack needs to have a white color (rgb [210-255, 210-255, 210-255]), the start green (rgb [0-40, 210-255, 0-40]) and the finish red (rgb [210-255,0-40,0-40]). 
+The space surrounding the racetrack can have any color not colliding with the previous three, for example black [255, 255, 255]. 
+
+In the added .pdf file, there is a report on how the AI controlled formula works. 

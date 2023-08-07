@@ -1,0 +1,1 @@
+pip install --user numpy pillow matplotlib pyglet scikit-image pytest

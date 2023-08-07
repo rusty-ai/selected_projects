@@ -2,7 +2,7 @@ Here, I implemented the Racetrack game, see https://en.wikipedia.org/wiki/Racetr
 It was made for the _Základy umělé inteligence_ (BI-ZUM) subject on _CVUT_ _FIT_, which I did through the _prg.ai/minor_ programme. 
 Game can be started by running **racetrack_main.py**. 
 At the beginning, the player appears in a menu, where he can write the name of his or a pre-prepared track (using BACKSPACE, he can delete characters), ENTER starts the race. 
-Loading the track (finding the AI route) the first time takes approximately 15 seconds. 
+Loading the track (finding the AI route) for the first time takes approximately 15 seconds. 
 In the game itself the player can (using arrows and the ENTER key) select the place where the formula goes in the next step, using BACKSPACE, ha can return a step back.
 There is a one AI controlled formula competing against the player.
 The game ends when the player goes off the track (or, in rare cases, if he was to leave the entire screen due to a very high speed), or when he reaches the finish. 

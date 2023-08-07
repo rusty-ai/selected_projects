@@ -5,6 +5,6 @@ In **mgr_thesis**, there is a jupyter notebook with a variational autoencoder I 
 
 In **racetrack_game**, there is an implementation of the square paper game Racetrack (with an AI opponent using a combination of A* and greedy search algorithms). 
 
-In **deep_learning_assignments**, there are a few solutions to some tasks from the Deep Learning course on MFF UK I passed. 
+In **deep_learning_assignments**, there is a few solutions to some tasks from the Deep Learning course on MFF UK I passed. 
 
-In **intro_to_ML_assignments** there are a few solutions to assignments from the Introduction to Machine Learning course on MFF UK I passed (the code there is not as nice as in some newer tasks, but it implements Naive Bayes, SVM, Kernel linear regression, etc., which I thought would be interesting). 
+In **intro_to_ML_assignments** there is a few solutions to assignments from the Introduction to Machine Learning course on MFF UK I passed (the code there is not as nice as in some newer tasks, but it implements Naive Bayes, SVM, Kernel linear regression, etc., which I thought would be interesting). 

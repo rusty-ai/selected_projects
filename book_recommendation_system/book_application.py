@@ -9,6 +9,10 @@ import os
 import matplotlib.pyplot as plt
 from skimage.transform import resize
 
+########################################################################
+# Loading dataframes
+########################################################################
+
 df_ratings_cropped = pd.read_pickle("resources/df_ratings_cropped.pkl")
 df_users_reduced = pd.read_pickle("resources/df_users_reduced.pkl")
 df_books_reduced = pd.read_pickle("resources/df_books_reduced.pkl")
